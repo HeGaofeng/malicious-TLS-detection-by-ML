@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2020-04-30-10-12-28
+#fields	ts	id	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count
+1586958233.170710	F5TehX1zjutIa0C136	3	CF55D24552CDD6FF	CN=hosteller.in,OU=Domain Control Validated	CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	1558918596.000000	1590539424.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	hosteller.in,www.hosteller.in	-	-	-	F	-
+1586958233.170710	F0twBlS9OmT7txsDi	3	07	CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	CN=Go Daddy Root Certificate Authority - G2,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	1304377200.000000	1935529200.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-
+1586958581.931908	FX8mw52KaPwoCQsJD9	3	CF55D24552CDD6FF	CN=hosteller.in,OU=Domain Control Validated	CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	1558918596.000000	1590539424.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	hosteller.in,www.hosteller.in	-	-	-	F	-
+1586958581.931908	FD1Gqb2xNOlmWpAHel	3	07	CN=Go Daddy Secure Certificate Authority - G2,OU=http://certs.godaddy.com/repository/,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	CN=Go Daddy Root Certificate Authority - G2,O=GoDaddy.com\\, Inc.,L=Scottsdale,ST=Arizona,C=US	1304377200.000000	1935529200.000000	rsaEncryption	sha256WithRSAEncryption	rsa	2048	65537	-	-	-	-	-	T	-
+#close	2020-04-30-10-12-29
