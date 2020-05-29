@@ -24,4 +24,9 @@ the IP address is the dst IP address of the suspected flow.
 13. run detection/detect_lightGBM.py or detection/detect_randomforest.py
 
 # Results
-For the TLS flow (dst IP address is 166.62.28.102)  in  *2020-04-15-Hancitor-infection-2nd-run.pcap*, the vi
+For the TLS flow (dst IP address is 166.62.28.102)  in  *2020-04-15-Hancitor-infection-2nd-run.pcap*, the virustotal checking result is:
+![VirusTotal checking result](https://github.com/HeGaofeng/malicious-TLS-detection-by-ML/blob/master/virustotal.jpg)
+
+The detection result of lightGBM is:
+![Detection result of lightGBM](https://github.com/HeGaofeng/malicious-TLS-detection-by-ML/blob/master/detect-result.jpg)
+
