@@ -1,6 +1,6 @@
 # Introduction
 
-Detect malicious TLS flows by Machine Learning.
+Detect malicious TLS flows by Machine Learning. The code is modified from [here](https://github.com/Abonnen/Malicious_TLS_Detection).
 
 # How to use
 
